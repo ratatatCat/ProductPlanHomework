@@ -9,7 +9,11 @@ I also noticed some typos in the second tip window. I left them in for exact spe
 Thanks again for your team and consideration. Please contact me with any questions.
 Catherine (Cat) Ireton =^.\_.^= ∫
 
-Create React App Notes
+
+
+
+
+## Create React App Notes
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
