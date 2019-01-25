@@ -7,6 +7,7 @@ My mindset in working on this project in the allotted timeframe was to get what 
 I also noticed some typos in the second tip window. I left them in for exact specifications sake but in a real job scenario, I would have reached out to the design team or product owner to get clarification on what it should say.
 
 Thanks again for your team and consideration. Please contact me with any questions.
+
 Catherine (Cat) Ireton =^.\_.^= ∫
 
 
