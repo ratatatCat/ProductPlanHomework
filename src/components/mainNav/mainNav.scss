@@ -1,0 +1,32 @@
+.main {
+  /* Style for "Main Nav -" */
+  height: 48px;
+  display: flex;
+  border-bottom: 1px solid #c1c4c7;
+}
+
+.candidate {
+  // Style for "Candidate"
+  display: inline-block;
+  color: #2d3439;
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 13px 0px 11px 16px;
+}
+
+.logo {
+  width: 152px;
+  border-right: 1px solid #c1c4c7;
+  img {
+    margin: 17px 16px 17px 16px;
+  }
+}
+
+.titleBar {
+  flex: 1;
+  img {
+    float: right;
+    margin: 15px 19px 17px 0px;
+  }
+}

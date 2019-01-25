@@ -1,0 +1,47 @@
+.tutorialWindow {
+  /* Style for "Combined S" */
+  width: 480px;
+  height: 372px;
+  box-shadow: 0 2px 14px rgba(45, 52, 57, 0.2);
+  background-color: #ffffff;
+
+  img {
+    margin: 32px 54px 32px 32px;
+  }
+
+  h1 {
+    color: #2d3439;
+    font-family: "Gilroy - Bold";
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 32px 0px 32px;
+  }
+
+  p {
+    color: #5a5e66;
+    font-family: "Gilroy - Medium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 8px 32px 0px 32px;
+  }
+
+  button {
+    /* Style for "Rectangle" */
+    width: 122px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: #1973ba;
+    color: #ffffff;
+    font-family: "Gilroy - Medium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    float: right;
+    margin: 32px;
+  }
+
+  &.hidden {
+    display: none;
+  }
+}

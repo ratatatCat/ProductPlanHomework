@@ -1,3 +1,16 @@
+Hello, all!
+
+I appreciate your consideration for the developer position at Product Plan. I must say, I actually had a pretty fun time with this homework project. This was my first time using React in creating a project (I have gone through some React Code Academy courses before). I've also used Angular so am pretty familiar with NPM and concepts like data binding.
+
+My mindset in working on this project in the allotted timeframe was to get what I could important functionality wise complete. I left some thing for cleanup later such as making the quarterly dates line up just right. If I could go back, I definitely would have focused more on adding some test coverage. I have never used Jest before so need to become more familiar with it. However, I have used Jasmine and the two seem fairly similar from a quick look.
+
+I also noticed some typos in the second tip window. I left them in for exact specifications sake but in a real job scenario, I would have reached out to the design team or product owner to get clairification on what it should say.
+
+Thanks again for your team and consideration. Please contact me with any questions.
+Catherine (Cat) Ireton =^.\_.^= ∫
+
+Create React App Notes
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

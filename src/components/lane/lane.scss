@@ -1,0 +1,55 @@
+.hoverLane {
+  /* Style for "Rectangle" */
+  width: 1187px;
+  height: 93px;
+  border-radius: 3px;
+  border: 1px dashed #c1c4c7;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 15px 32px 15px 32px;
+  p {
+    height: 93px;
+    line-height: 93px;
+    width: 100%;
+    color: #2d3439;
+    font-family: "Gilroy - Bold";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+.lane {
+  /* Style for "Rectangle" */
+  width: 1253px;
+  height: 93px;
+  border-radius: 3px;
+  border: 1px solid #c1c4c7;
+  background-color: #ffffff;
+  margin: 15px 0px 0px 32px;
+  .heading {
+    width: 1225px;
+    height: 39px;
+    border-radius: 3px 3px 0 0;
+    background-color: #ef6031;
+    p {
+      color: #ffffff;
+      font-family: Helvetica;
+      font-size: 16px;
+      padding: 8px 0px 7px 28px;
+    }
+  }
+  .barGroup {
+    height: 46px;
+    width: 100%;
+    display: flex;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.largeLane {
+  width: 1253px !important;
+  height: 139px !important;
+}

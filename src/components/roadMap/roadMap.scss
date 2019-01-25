@@ -1,0 +1,51 @@
+.roadMap {
+  width: 1251px;
+  height: 772px;
+  box-shadow: inset 0 -1px 0 #c1c4c7, inset -1px 0 0 #c1c4c7;
+  background-color: #e4e6e8;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.dateSpan {
+  height: 40px;
+  width: 100%;
+  min-width: 100% !important;
+  background-image: linear-gradient(to right, #e4e6e8 95%, #c1c4c7 0%);
+  background-position: bottom;
+  background-size: 96px 4px;
+  background-repeat: repeat-x;
+  display: flex;
+  span {
+    color: #5e6266;
+    font-family: "Gilroy - Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  .yearSpan {
+    width: 296px;
+    margin: 10px 0px 0px 0px;
+    display: block;
+  }
+  .quarterSpan {
+    width: 296px;
+    margin: 10px 300px 0px 0px;
+    display: block;
+  }
+}
+
+.tutorialWindow {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.right {
+  float: right;
+}

@@ -1,0 +1,28 @@
+.sideBar {
+  width: 185px;
+}
+
+.actionButton {
+  width: 154px;
+  height: 36px;
+  border-radius: 4px;
+  background-color: #e4e6e8;
+  text-align: left;
+  padding: 0;
+  border: none;
+  margin: 4px 15px 4px 16px;
+
+  span {
+    // Style for "Add lane"
+    width: 56px;
+    height: 23px;
+    color: #5e6266;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  img {
+    margin: 11px 8px 11px 8px;
+  }
+}

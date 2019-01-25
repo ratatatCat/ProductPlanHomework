@@ -1,0 +1,42 @@
+.subNav {
+  height: 80px;
+  display: flex;
+  font-family: "Gilroy-Medium";
+  border-bottom: 1px solid #c1c4c7;
+
+  .header {
+    // Style for "Product roadmap"
+    width: 250px;
+    height: 41px;
+    color: #222428;
+    font-family: "Gilroy-Bold";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 32px 32px 0px 32px;
+  }
+
+  .tabPanel {
+    width: 969px;
+    text-align: right;
+    p {
+      display: inline-block;
+      margin: 52px 30px 5px 0px;
+
+      &.activeTab {
+        border-bottom: 4px solid #1973ba;
+      }
+    }
+  }
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: local("Gilroy-Bold") url(../../fonts/Gilroy-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: local("Gilroy-Medium") url(../../fonts/Gilroy-Medium.otf)
+    format("opentype");
+}

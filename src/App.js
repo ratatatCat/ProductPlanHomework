@@ -1,28 +1,25 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import SubNav from "./components/subNav/subNav";
+import MainNav from "./components/mainNav/mainNav";
+import RoadMap from "./components/roadMap/roadMap";
+import SideBar from "./components/sideBar/sideBar";
+import { DragDropContext } from "react-dnd";
+import HTML5Backend from "react-dnd-html5-backend";
+import "./App.scss";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <MainNav />
+        <SubNav />
+        <div className="roadContent">
+          <RoadMap />
+          <SideBar />
+        </div>
       </div>
     );
   }
 }
 
-export default App;
+export default DragDropContext(HTML5Backend)(App);
