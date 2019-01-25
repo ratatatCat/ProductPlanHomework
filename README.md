@@ -6,6 +6,8 @@ My mindset in working on this project in the allotted timeframe was to get what 
 
 I did notice some typos in the second tip window. I left them in for exact specifications sake but in a real job scenario, I would have reached out to the design team or product owner to get clarification on what it should say.
 
+In cleanup, I would definitely go back and clean up duplicate code and make use of the more common component methodology as allowed by React. 
+
 Thanks again for your team and consideration. Please contact me with any questions.
 
 Catherine (Cat) Ireton =^.\_.^= ∫
